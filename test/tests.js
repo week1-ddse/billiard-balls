@@ -1,10 +1,5 @@
+import addBall from '../src/addBall.js';
 const test = QUnit.test;
-
-function addBall(ballParentElement, ballName) {
-    const span = document.createElement('span');
-    span.classList.add('ball', ballName);
-    ballParentElement.appendChild(span);
-}
 
 test('appends ball to cue', assert => {
     //arrange
