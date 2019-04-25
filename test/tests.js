@@ -1,16 +1,22 @@
 const test = QUnit.test;
 
+function addBall(ballParentElement, ballName) {
+    const span = document.createElement('span');
+    span.classList.add('ball', ballName);
+    ballParentElement.appendChild(span);
+}
+
 test('appends ball to cue', assert => {
     //arrange
-    const ballName = '1';
-    const ballLine = document.createElement('div');
+    const ballName = 'one';
+    const ballParent = document.createElement('div');
     const expected = '<span class="ball one"></span>';
 
     //act
-    addBall(ballName, ballLine);
+    addBall(ballParent, ballName);
 
     //assert
-    const parentInnerHTML = ballLine.innerHTML;
+    const parentInnerHTML = ballParent.innerHTML;
     assert.equal(parentInnerHTML, expected);
 });
 
