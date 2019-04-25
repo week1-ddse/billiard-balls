@@ -6,9 +6,6 @@ const ballParent = document.getElementById('ball-parent');
 for(let i = 0; i < ballButtons.length; i++) {
     const ballButton = ballButtons[i];
     ballButton.addEventListener('click', () => {
-
         addBall(ballParent, ballButton.value);
-        console.log(ballParent);
-
     });
 }
