@@ -3,9 +3,9 @@ const test = QUnit.test;
 
 test('appends ball to cue', assert => {
     //arrange
-    const ballName = 'one';
+    const ballName = '1-solid';
     const ballParent = document.createElement('div');
-    const expected = '<span class="ball one"></span>';
+    const expected = '<img class="ball 1-solid" src="../assets/1-solid.png" alt="image of 1-solid">';
 
     //act
     addBall(ballParent, ballName);

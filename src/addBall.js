@@ -1,7 +1,9 @@
 function addBall(ballParentElement, ballName) {
-    const span = document.createElement('span');
-    span.classList.add('ball', ballName);
-    ballParentElement.appendChild(span);
+    const image = document.createElement('img');
+    image.classList.add('ball', ballName);
+    image.src = '../assets/' + ballName + '.png';
+    image.alt = 'image of ' + ballName;
+    ballParentElement.appendChild(image);
 }
 
 export default addBall;
