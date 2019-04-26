@@ -10,8 +10,10 @@ button img {
     height: 80px;
     width: 80px;
     margin-left: -30px;
+    transition: .5s;
 }
 
 .dance {
-    transform: translateX(5px);
+    transform: translateY(20px);
+    transition: .5s;
 }
