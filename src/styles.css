@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    text-align: center;
+    font-family: Oswald;
+}
+
 button img {
     height: 35px;
 }
