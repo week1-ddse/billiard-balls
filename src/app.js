@@ -1,4 +1,5 @@
 import addBall from './addBall.js';
+import makeDance from './makeDance.js';
 
 const ballButtons = document.querySelectorAll('.ball-button');
 const ballParent = document.getElementById('ball-parent');
@@ -15,6 +16,8 @@ const danceButtons = document.querySelectorAll('.dance-button');
 for(let i = 0; i < danceButtons.length; i++) {
     const danceButton = danceButtons[i];
     danceButton.addEventListener('click', () => {
-        
+        makeDance(danceButton.value);
+        console.log('')
     });
 }
+
