@@ -11,3 +11,10 @@ for(let i = 0; i < ballButtons.length; i++) {
 }
 
 const danceButtons = document.querySelectorAll('.dance-button'); 
+
+for(let i = 0; i < danceButtons.length; i++) {
+    const danceButton = danceButtons[i];
+    danceButton.addEventListener('click', () => {
+        
+    });
+}
