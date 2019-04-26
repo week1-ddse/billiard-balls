@@ -15,3 +15,13 @@ test('appends ball to cue', assert => {
     assert.equal(parentInnerHTML, expected);
 });
 
+test('add a dance class to stripes if user clicks stripe-button', assert => {
+    //arrange
+    const danceValue = 'stripe-button';
+    const mockParent = document.createElement('div');
+    const expected = 
+    //act
+
+    //assert
+    assert.equal(expected, actual);
+});

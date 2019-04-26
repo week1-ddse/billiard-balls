@@ -9,3 +9,5 @@ for(let i = 0; i < ballButtons.length; i++) {
         addBall(ballParent, ballButton.value);
     });
 }
+
+const danceButtons = document.querySelectorAll('.dance-button'); 
