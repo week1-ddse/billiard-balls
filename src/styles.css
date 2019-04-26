@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    text-align: center;
+    font-family: Oswald;
+}
+
+button img {
+    height: 35px;
+}
+
+.cue {
+    height: 80px;
+}
+
+.ball {
+    height: 80px;
+    width: 80px;
+    margin-left: -30px;
+    transition: .5s;
+}
+
+.dance {
+    transform: translateY(20px);
+    transition: .5s;
+}
