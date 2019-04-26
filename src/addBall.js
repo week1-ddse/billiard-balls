@@ -9,7 +9,7 @@ function addBall(ballParentElement, ballName) {
     } else {
         image.classList.add('eight-ball');
     }
-    image.src = '../assets/' + ballName + '.png';
+    image.src = './assets/' + ballName + '.png';
     image.alt = 'image of ' + ballName;
     ballParentElement.appendChild(image);
 }
